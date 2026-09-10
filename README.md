@@ -23,7 +23,15 @@ x install wisu
 - **Latest**: `v0.1.6` (2026-03-12)
 - **Last commit**: 2026-07-27
 - **Assets in release**: 4
-- **Published**: 2026-03-12T21:24:48Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [wisu-linux-x86_64.tar.gz](https://github.com/sh1zen/wisu/releases/download/v0.1.6/wisu-linux-x86_64.tar.gz) | 1.4 MiB | `native/linux/x64` |
+| [wisu-macos-arm64.tar.gz](https://github.com/sh1zen/wisu/releases/download/v0.1.6/wisu-macos-arm64.tar.gz) | 1.1 MiB | `native/darwin/arm64` |
+| [wisu-macos-x86_64.tar.gz](https://github.com/sh1zen/wisu/releases/download/v0.1.6/wisu-macos-x86_64.tar.gz) | 1.3 MiB | `native/darwin/x64` |
+| [wisu-windows-x86_64.zip](https://github.com/sh1zen/wisu/releases/download/v0.1.6/wisu-windows-x86_64.zip) | 1.3 MiB | `native/win/x64` |
 
 ## Popularity
 
@@ -56,8 +64,8 @@ Total: **3,176** lines of code across **22** files in the top 5 languages.
 Install metadata for wisu lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `wisu` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/wisu.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/wisu.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:03:46Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:50:32Z._
